@@ -1,2 +1,26 @@
 git init --bare:
 - inicia um repositório sem uma working tree.
+
+git remote:
+- lista os repositórios remotos
+
+git remote add nome-do-repositorio diretorio-do-repositorio:
+- adiciona no ambiente de desenvolvimento um repositorio
+
+git remote rename nome-antigo nome-novo:
+- renomeia o nome de um repositorio remoto localmente.
+
+git push local master:
+- envia alterações para o repositorio local o que está no branch master.
+
+git pull local master:
+- carrega a versão do repositorio remoto na branch master.
+
+git log:
+- mostra o log dos commits na branch
+
+git log --oneline:
+- mostar em uma linha o log dos commits
+
+git log -p:
+- mostra o log de commits da branch com mais detalhes.

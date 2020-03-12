@@ -24,3 +24,15 @@ git log --oneline:
 
 git log -p:
 - mostra o log de commits da branch com mais detalhes.
+
+git branch:
+- lista as branch's do repositorio
+
+git branch nome-da-branch:
+- cria uma nova branch no repositorio
+
+git checkout nome-da-branch:
+- troca branch atual para a de nome-da-branch
+
+git checkout -b nome-da-branch:
+- cria uma nova branch com o nome nome-da-brach e muda para ela.
